@@ -33,7 +33,7 @@ public final class UGDropDown: UITableView {
         }
     }
 
-    public init(frame: CGRect, style: UITableViewStyle, rowHeight: CGFloat) {
+    public init(frame: CGRect, style: UITableView.Style, rowHeight: CGFloat) {
         self.maxDropDownHeight = rowHeight
         self.cellRowHeight = rowHeight
         super.init(frame: frame, style: style)

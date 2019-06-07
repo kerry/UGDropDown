@@ -41,7 +41,7 @@ class UGDropDownBlanket: UIView {
         self.alpha = 0.0
     }
 
-    func blanketViewTapped() {
+    @objc func blanketViewTapped() {
         self.delegate?.blanketViewTapped()
     }
 }

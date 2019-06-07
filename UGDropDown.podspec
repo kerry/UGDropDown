@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "UGDropDown"
-  s.version = "1.0"
+  s.version = "1.1"
   s.summary = "A simple drop down functionality implemented using UITableView in Swift"
   s.homepage = "https://github.com/kerry/UGDropDown"
   s.license = { :type => "MIT", :file => "LICENSE" }
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/kerry/UGDropDown.git", :tag => "#{s.version}" }
   s.source_files = "Sources/**/*.{swift,h,m}"
   s.requires_arc = true
-  s.swift_version = "3.2"
+  s.swift_version = "5.0"
 end
